@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.landing {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.landing section.left {
+    width: 640px;
+}
+.landing section.right {
+    width: 640px;
+}
+.left .bottom{
+    background-color: rgb(187, 187, 187)
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+}
+.landing .nav-left  {
+    margin-left: 70px;
+    
+}
+.landing .nav-left p{
+background-color: blue;    
+padding: 1px;
+margin: 1px;
+color: white;
+
+}
+.landing .nav-right ul{
+    list-style: none;
+    margin-right: 10px;
+ }
+ .landing .nav-right ul li{
+    display: inline-block;
+    height: 100%;
+    line-height: 52px;
+    margin: 0px 5px;
+ }
+ .header {
+    margin: 100px 0px 100px 70px;
+ }
+.header h1{
+    color: blue;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h1 span {
+    font-size: 26px;
+    font-weight: 500;
+    font-style: italic;
+}
+.header .cta-home{
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 5px 15px;
+    background: yellow;
+    border: none;
+}
+
+.left .bottom img{
+height: 100%;
+width: 100%;
+}
+
+
+/* *********section right ****** */
+
+section.right {
+    background: rgb(22, 22, 122);
+}
+section.right .icon_top{
+    text-align: right;
+    padding: 20px;
+    margin-right: 50px;
+    height: 70px;
+}
+section.right .icon_top img{
+height: 30px;
+width: 30px;
+}
+.landing_right_image {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    height: calc(100% - 70px);
+    
+}
+.landing_right_image .images {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+}
+.landing_right_image .images img:nth-child(1){
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    transform: rotate(20deg);
+    border-radius: 50%;
+    top: -20px;
+    right: -20px;
+}
+
+.landing_right_image .images img:nth-child(2){
+    
+    height: 100%;
+    width: 100%;
+}
+.landing_right_image p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* landing_info****** */
+.contact_container {
+    width: 500px;
+    margin: 50px auto;
+    position: relative;
+    
+}
+.contact_container h3 {
+    font-size: 30px;
+    color: rgb(16, 16, 104);
+
+}
+.contact_container p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+.input_grp {
+    display: flex;
+    margin-bottom: 70px;
+}
+.input_grp section{
+    width: 50%;
+}
+.input_grp section:nth-child(1) {
+    padding: 0 15px 15px 0;
+}
+.input_grp section:nth-child(2) {
+    padding: 0 15px 15px 15px;
+}
+.contact_container .input_grp .right{
+    background-color: white;
+}
+.input_grp input, select{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin:10px 10px 0;
+}
+textarea{
+    border:none;
+    border-bottom:black 2px solid;
+    background:white;
+    width: 100%;
+}
+.submit_button{
+position: absolute;
+right: 0;
+margin-top: 15px;
+padding: 10px 25px;
+border: none;
+background-color:yellow;
+text-transform: uppercase;
+font-size: 12px;
+font-weight: 600;
+}
+.style1{
+   width: 290px;
+   height: 280px;
+   padding-right: 30px;
+   padding-bottom: 30px;
+
+}
+
+.pp span{
+    font-size: 25px;
+    color: blue ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.pp i{
+    color: blue;
+}
+
+.pl span{
+    font-size: 25px;
+    color: blue ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pl{
+    padding-bottom: 30px;
+}
+.pl i{
+    color: blue;
+}
+section.my_style4 {
+    position: relative;
+}
+.style2{
+    width: 290px;
+    height: 280px;
+    padding-left: 30px;
+    padding-top: 30px;
+    /* position: relative; */
+
+}
+.sale_off{
+    position: absolute;
+    top: 20px;
+    right: -20px;
+    height: 50px;
+    width: 50px;
+
+}
+.styling{
+   margin-top: 50px; 
+  
+   padding-top: 40px; 
+   padding-bottom: 50px; 
+   color: white;
+
+}
+.style_news{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.p_leftside{
+    padding-left: 110px;
+    color: blue;
+}
+
+.p_leftside span{
+    font-style: italic;
+    font-size:35px;
+    padding-left: 10px;
+}
+
+.new_arrival{
+     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.new_arrival p{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.final_information{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(17, 17, 134);
+    color: white;
+    height: 150px;
+    place-items: center;
+    gap: 80px;
+}
+
+.final_information h5{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.final_information p{
+    font-size: .8rem;
+}
+.final_information input{
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 7px 2px;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+.final_information input::placeholder {
+color: white;
+}
+
+.final_para_button{
+    font-size: 1rem;
+    background-color: yellow;
+    width: 180px;   
+    height: 40px;
+    border: none;
+    outline: none;margin-top: 10px;
+    margin-left: 50px;
+}
+
+
+/* footer section *//* footer section *//* footer section *//* footer section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    margin-top: 20px;
+}
+.footer .foot-left  {
+    margin-left: 70px;
+    padding-right: 400px;
+    padding-left: 30px;
+    
+}
+.lorem{
+    font-size: .80em;
+    padding-top: 10px;
+}
+footer .foot-left .pf{
+background-color: blue;    
+padding: 1px;
+margin: 1px;
+color: white;
+width: 80px;
+
+}
+
+.foot-right{
+    padding-right: 5px;
+    
+}
+.footer .foot-right ul{
+    list-style: none;
+    /* margin-right: 5px; */
+ }
+ .footer .foot-right ul li{
+    display: inline-block;
+    height: 100%;
+    line-height: 52px;
+    margin: 0px 5px;
+    padding-right: 30px;
+ }
+
+ .shop_p{
+    font-size: .80em;
+    line-height: 1.2;
+ }
